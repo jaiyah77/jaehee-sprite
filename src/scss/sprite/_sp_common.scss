@@ -1,0 +1,21 @@
+// Sprites Map
+$sp_common: (
+	name: 'sp_common',
+	width: 132px,
+	height: 64px,
+	image: '../img/sp_common.png',
+	sprites: (
+		next: (
+			offset-x: 0px,
+			offset-y: 0px,
+			width: 64px,
+			height: 64px,
+		),
+		prev: (
+			offset-x: -68px,
+			offset-y: 0px,
+			width: 64px,
+			height: 64px,
+		),
+		)
+);

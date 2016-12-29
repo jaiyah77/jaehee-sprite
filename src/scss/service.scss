@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+// sass common
+//@import "common/variables";
+//@import "common/placeholders";
+//@import "common/mixins";
+@import "common/sprite_mixin";
+
+.sprite-test {
+	font-size: 16px;
+	padding: 10px;
+	margin: 10px;
+	&::after {
+		@include get-sprite(icon_test, $sp_common);
+		margin-left: 5px;
+		content: '';
+	}
+}

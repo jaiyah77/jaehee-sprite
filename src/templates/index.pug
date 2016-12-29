@@ -1,0 +1,49 @@
+doctype
+html(lang="ko")
+    head
+        meta(charset="utf-8")
+        title IBU
+        link(rel="stylesheet" href="css/service.css")
+    body
+        .wrap_popup(style="width:400px")
+            main.popup
+                .popup_top
+                    .top_left
+                        h2.top_title 주소검색
+                    .top_right
+                        button.top_close(role="button" aria-lable="닫기")
+                .container-fluid
+                    .row
+                        .col-xs-12.popup_contents
+                            p 동(읍/면/리) 이름을 입력하세요d sdddd.
+                            form.form-inline
+                                .form-group
+                                    input.form-control(type="text" value="신정동" style="width:294px")
+                                    button.btn.btn-default.btn_search(type="submit") 검색
+                            p.result_number
+                                | 검색결과:
+                                span.
+                                    총 #[strong.point_color_03 18] 건
+                            .scroll-wrap.scroll_address
+                                ul
+                                    li
+                                        a(href="#none") 서울특별시 마포구 신정동
+                                    li
+                                        a(href="#none") 서울특별시 마포구 신정동
+                                    li
+                                        a(href="#none") 서울특별시 마포구 신정동
+                                    li
+                                        a(href="#none") 서울특별시 마포구 신정동
+                                    li
+                                        a(href="#none") 서울특별시 마포구 신정동
+                                    li
+                                        a(href="#none") 서울특별시 마포구 신정동
+                                    li
+                                        a(href="#none") 서울특별시 마포구 신정동
+                                    li
+                                        a(href="#none") 서울특별시 마포구 신정동
+                                    li
+                                        a(href="#none") 서울특별시 마포구 신정동
+
+                footer.popup_footer
+                    button.btn.btn-default(type="button" role="button") 닫기

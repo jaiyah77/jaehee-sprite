@@ -1,0 +1,33 @@
+{
+  "name": "taskrunner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jaehee",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.6.0",
+    "browser-sync": "^2.18.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-md5-plus": "^0.2.5",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-prettify": "^0.5.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp.spritesmith": "^6.2.1",
+    "lazypipe": "^1.0.1",
+    "path": "^0.12.7",
+    "postcss-url": "^5.1.2"
+  }
+}

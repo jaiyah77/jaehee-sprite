@@ -1,0 +1,47 @@
+// 말줄임 효과 : 기본값 2줄
+@mixin ellipsis($line: 2) {
+	overflow: hidden;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp: $line;
+}
+
+// prev, next keyframe
+@mixin keyframes-transform($name, $transform1, $transform2, $opacity) {
+	@-o-keyframes #{$name} {
+		0% {
+			-webkit-transform: $transform1;
+		}
+		100% {
+			opacity : $opacity;
+			-webkit-transform: $transform2;
+		}
+	}
+	@-moz-keyframes #{$name} {
+		0% {
+			-webkit-transform: $transform1;
+		}
+		100% {
+			opacity : $opacity;
+			-webkit-transform: $transform2;
+		}
+	}
+	@-webkit-keyframes #{$name} {
+		0% {
+			-webkit-transform: $transform1;
+		}
+		100% {
+			opacity : $opacity;
+			-webkit-transform: $transform2;
+		}
+	}
+	@keyframes #{$name} {
+		0% {
+			transform: $transform1;
+		}
+		100% {
+			opacity : $opacity;
+			transform: $transform2;
+		}
+	}
+}
